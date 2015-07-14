@@ -1,7 +1,5 @@
 var numbers = [0, 1, 2, 3, 4, 5, 10, 500]
 
-var calculator = function(arr){
-
 var average = function(arr){
   var total = 0;
   for (var i = 0; i < arr.length; i++){
@@ -20,6 +18,6 @@ var average = function(arr){
   }
     return result;
   }
-}
 
-console.log((average(numbers))max(numbers))
+
+console.log("Your average is "  + average(numbers) +".", "Your biggest number is " + max(numbers)+".");
